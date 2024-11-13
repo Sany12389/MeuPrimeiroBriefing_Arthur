@@ -1,6 +1,8 @@
 <!DOCTYPE html="pt-BR">
 <html>
 
+
+
 <head>
     <meta charset="UTF-8"> <!-- Permitir utilizar caracter especial como 'ç'-->
     <title>Minha primeira página</title>
@@ -23,113 +25,139 @@
                     <img src="img/Catatau_Games-removebg-preview.png" alt="Catatau Games" width="200" height="120">
                 </nav>
                 <a class="navbar-brand" href="#">Catatau Games</a>
-                <!--Button-->
+                <!-- Button para alternar o menu em dispositivos móveis -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expControleseAcePlaystation.htmlanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Plastation
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="ConsolesPlaystation.html">Consoles Playstation</a></li>
-                        <li><a class="dropdown-item" href="ControleseAcePlaystation.html">Controle e Acessórios</a>
-                        </li>
-                        <li><a class="dropdown-item" href="JogosPlaystation.html.html">Jogos Playstation</a></li>
-                    </ul>
-                </div>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        XBOX
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Consoles Xbox</a></li>
-                        <li><a class="dropdown-item" href="#">Controle e Acessórios</a></li>
-                        <li><a class="dropdown-item" href="#">Jogos Xbox</a></li>
-                    </ul>
-                </div>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Nintendo
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Consoles Nintendo</a></li>
-                        <li><a class="dropdown-item" href="#">Controles e Acessórios</a></li>
-                        <li><a class="dropdown-item" href="#">Jogos Nintendo</a></li>
-                    </ul>
-                </div>
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        PC Gamer
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">PC Gamer AMD Ryzen Série 5000</a></li>
-                        <li><a class="dropdown-item" href="#">PC Gamer Ryzen Série 7000 à 9000</a></li>
-                        <li><a class="dropdown-item" href="#">Portáteis / Steam Deck / Rog Ally</a></li>
-                    </ul>
-                </div>
 
-                <!-- Fim do menu -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Playstation
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                <li><a class="dropdown-item" href="ConsolesPlaystation.html">Consoles Playstation</a></li>
+                                <li><a class="dropdown-item" href="ControlePlaystation.html.html">Controle e Acessórios</a></li>
+                                <li><a class="dropdown-item" href="Jogosplaystation.html">Acessórios Playstation</li>
+                            </ul>
+                        </li>
+                        <!-- Outros menus de navegação -->
+                        <!-- Button para alternar o menu em dispositivos móveis -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Xbox
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                        <li><a class="dropdown-item" href="#">Consoles Xbox</a></li>
+                                        <li><a class="dropdown-item" href="#">Controle e Acessórios</a></li>
+                                        <li><a class="dropdown-item" href="#">Controles Acessórios Xbox
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Button para alternar o menu em dispositivos móveis -->
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Pc Games
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                                <li><a class="dropdown-item" href="#">Consoles PC Gamer</a></li>
+                                                <li><a class="dropdown-item" href="#">Controle e Acessórios</a></li>
+                                                <li><a class="dropdown-item" href="#">Controles Acessórops PC Gamer
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <!-- Fim do menu -->
     </header>
 
 
     <main>
 
         <section id="produtos" class="container">
-            <section id="produtos" class="container">
-                <h2 class="text-center mb-4">Consoles</h2>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/PS5.PNG" class="card-img-top" alt="cheddar">
-                        <div class="card-body">
-                            <h5 class="card-title">Playstation 5</h5>
-                            <p class="card-text">Playstation 5 SLIM, Returnal + Ratchet Bundle, PS5 Com Leitor, 1TB SSD,
-                                Modelo CFI-2014 (Nacional).</p>
-                            <p class="card-text">3.888,78 ou 3X de R$ 1.296,26 ou PIX 3.299,90</p>
-                            <p class="card-text">ou PIX 3.499,90</p>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
+            <h2 class="text-center mb-4">Playstation</h2>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="img/PS5.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Playstation 5</h5>
+                      <p class="card-text">Playstation 5 SLIM, Returnal + Ratchet Bundle, PS5 Com Leitor, 1TB SSD, Modelo CFI-2014 (Nacional).</p>
+                      <p class="card-text">R$ 3.888,78
+                        até 3x de R$ 1.296,26 sem juros</p>
+                      <p class="card-text">ou R$ 3.499,90 via Pix</p>
+                      <a class="btn btn-primary" href="#" role="button">Comprar</a>
                     </div>
+                  </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="img/PS5.PNG" class="card-img-top" alt="Bacon">
-                        <div class="card-body">
-                            <h5 class="card-title">Playstation 5</h5>
-                            <p class="card-text">Playstation 5 SLIM, Digital Edition, Returnal + Ratchet Bundle, 1TB
-                                SSD, Modelo CFI-2014 (Nacional).</p>
-                            <p class="card-text">3.666,56 ou 3X de R$ 1.222,18 ou PIX 3.299,90</p>
-                            <p class="card-text">ou PIX 3.299,90</p>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/PS5.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Playstation</h5>
+                      <p class="card-text">Playstation 5 SLIM, Digital Edition, Returnal + Ratchet Bundle, 1TB SSD, Modelo CFI-2014 (Nacional).</p>
+                      <p class="card-text">R$ R$ 4.099,90
+                        até 3x de R$ 1.366,60 sem juros</p>
+                      <p class="card-text">ou R$ 3.689,90 via Pix</p>
+                      <a class="btn btn-primary" href="#" role="button">Comprar</a>
                     </div>
+                  </div>
                 </div>
-                <div class="col-md-5">
-                    <div class="card">
-                        <img src="img/plst5 - Copia.jfif" class="card-img-top" alt="Mussarela">
-                        <div class="card-body">
-                            <h5 class="card-title">Playstation 5</h5>
-                            <p class="card-text">Playstation 5, Spider-Man 2 Bundle, Com Leitor, Modelo CFI-1214A
-                                (Nacional).</p>
-                            <p class="card-text">3.888,78 ou 3X de R$ 1.296,26 ou PIX 3.299,90</p>
-                            <p class="card-text">ou PIX 3.499,90</p>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/PS%homemaranha.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Playstation 5</h5>
+                      <p class="card-text">Console PlayStation®5 + Marvel's Spider-Man 2.</p>
+                      <p class="card-text">R$ 3.666,56
+                        até 3x de R$ 1.222,18 sem juros</p>
+                      <p class="card-text">ou R$ 3.299,90 via Pix</p>
+                      <a class="btn btn-primary" href="#" role="button">Comprar</a>
                     </div>
+                  </div>
                 </div>
-               
+                <div class="col">
+                  <div class="card">
+                    <img src="img/PS52tb.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Playstation 5</h5>
+                      <p class="card-text">Playstation 5 PRO, 2TB SSD, Modelo CFI 7014 Nacional, PS5 PRO.</p>
+                      <p class="card-text">R$ 7.733,22
+                        até 3x de R$ 2.577,74 sem juros</p>
+                      <p class="card-text">ou R$ 6.959,90 via Pix</p>
+                      <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
     </main>
 
 
     <footer>
-    
+
         <p>&copy; 2024 Catatau Games. Feito por Vitória e Sandyla.</p>
 
     </footer>
