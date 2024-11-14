@@ -4,6 +4,10 @@ html, body {
   padding: 0; /* Remove o preenchimento padrão */
 }
 
+script {
+  background-color: aliceblue;
+}
+
 header {
   background-color: #008cff; /* Cor preta mais tradicional para o cabeçalho */
   padding: 20px 0; /* Espaçamento interno (topo e fundo) */

@@ -1,0 +1,363 @@
+<head>
+    <meta charset="UTF-8"> <!-- Permitir utilizar caracter especial como 'ç'-->
+    <title>Minha primeira página</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"> <!-- Precisa existir a comunicação entre o arquivo CSS -->
+
+
+
+</head>
+
+
+<body>
+    <header>
+        <!-- Início do menu -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-re bg-red">
+                    <img src="img/Catatau_Games-removebg-preview.png" alt="Catatau Games" width="200" height="120">
+                </nav>
+                <a class="navbar-brand" href="#">Catatau Games</a>
+                <!-- Button para alternar o menu em dispositivos móveis -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Playstation
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                <li><a class="dropdown-item" href="ConsolesPlaystation.html">Consoles Playstation</a>
+                                </li>
+                                <li><a class="dropdown-item" href="ControlePlaystation.html.html">Controle e
+                                        Acessórios</a></li>
+                                <li><a class="dropdown-item" href="Jogosplaystation.html">Jogos Playstation</li>
+                            </ul>
+                        </li>
+                        <!-- Outros menus de navegação -->
+                        <!-- Button para alternar o menu em dispositivos móveis -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Xbox
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                        <li><a class="dropdown-item" href="Consolexbox.html">Consoles Xbox</a></li>
+                                        <li><a class="dropdown-item" href="ControleeAcexbox.html">Controle e Acessórios</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="jogosxbox.html">Controles Acessórios Xbox
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <!-- Button para alternar o menu em dispositivos móveis -->
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Pc Games
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                                <li><a class="dropdown-item" href="Consolepc.html">Consoles PC Gamer</a></li>
+                                                <li><a class="dropdown-item" href="Controleacepc.html">Controle e Acessórios</a></li>
+                                                <li><a class="dropdown-item" href="Jogospc.html">Jogos PC Gamer
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <!-- Fim do menu -->
+    </header>
+
+
+    <main>
+
+        <section id="produtos" class="container">
+            <h2 class="text-center mb-4">Playstation</h2>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="img/batte.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Battlefield 1 Revolution</h5>
+                            <p class="card-text">Xbox One (Mídia Física)</p>
+                            <p class="card-text">R$ 44,55
+                                até 3x de R$ 14,85 sem juros</p>
+                            <p class="card-text">ou R$ 40,10 via Pix</p>
+                            <a class="btn btn-primary" href="Pagamento.html" role="button">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/nfs.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Need For Speed Unbound</h5>
+                            <p class="card-text">Xbox-Series X (Mídia Física)</p>
+                            <p class="card-text">R$ 144,33
+                                até 3x de R$ 48,11 sem juros</p>
+                            <p class="card-text">ou R$ 129,90 via Pix</p>
+                            <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/sombraS.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sombras de Mordor Goty</h5>
+                            <p class="card-text">Xbox One (Mídia Física)</p>
+                            <p class="card-text">R$ 44,55
+                                até 3x de R$ 14,85 sem juros</p>
+                            <p class="card-text">ou R$ 40,10 via Pix</p>
+                            <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/controlecinza.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Xbox Series X</h5>
+                            <p class="card-text">1TB SSD, All-Digital, Branco, Robot White, Console Microsoft</p>
+                            <p class="card-text">R$ 4.222,11
+                                até 3x de R$ 1.407,37 sem juros</p>
+                            <p class="card-text">ou R$ 3.799,90 via Pix</p>
+                            <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/controlexbox.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Controle Xbox-Series</h5>
+                            <p class="card-text">Sem Fio, Stormcloud Vapor, Azul, Original Microsoft</p>
+                            <p class="card-text">R$ 499,89
+                                até 3x de R$ 166,63 sem juros</p>
+                            <p class="card-text">ou R$ 449,90 via Pix</p>
+                            <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/controlexbox2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Controle Xbox-Series S/X</h5>
+                        <p class="card-text">Xbox-One S/X, Preto, Original Microsoft</p>
+                        <p class="card-text">R$ 399,89
+                            até 3x de R$ 133,29 sem juros</p>
+                        <p class="card-text">ou R$ 359,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/controleroxo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Controle Xbox-Series Astral Purple</h5>
+                        <p class="card-text">cor roxo</p>
+                        <p class="card-text">R$ 444,33
+                            até 3x de R$ 148,11 sem juros</p>
+                        <p class="card-text">ou R$ 399,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/controleaazull.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Controle Xbox-Series S, X, One</h5>
+                        <p class="card-text">Shock Blue, Azul, Original Microsoft</p>
+                        <p class="card-text">R$ 444,33
+                            até 3x de R$ 148,11 sem juros</p>
+                        <p class="card-text">ou R$ 399,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/fontexbox.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fonte Adaptador Usb Bivolt 110-220v</h5>
+                        <p class="card-text">Para Kinect Xbox 360</p>
+                        <p class="card-text">R$ 55,44
+                            até 3x de R$ 18,48 sem juros</p>
+                        <p class="card-text">ou R$ 49,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/hdmi.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cabo HDMI</h5>
+                        <p class="card-text"></p>
+                        <p class="card-text">R$ 33,22
+                            até 3x de R$ 11,07 sem juros</p>
+                        <p class="card-text">ou R$ 29,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/xboxxompleto.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Suporte Carregador Cooler Charger Base</h5>
+                        <p class="card-text">para Xbox-Series S, Dobe</p>
+                        <p class="card-text">R$ 222,11
+                            até 3x de R$ 74,03 sem juros</p>
+                        <p class="card-text">ou R$ 199,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/controlebrancosoldado.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Controle Xbox-Series</h5>
+                        <p class="card-text">Sem Fio, Artic Camo, Cinza, Original Microsoft</p>
+                        <p class="card-text">R$ 499,89
+                            até 3x de R$ 166,63 sem juros</p>
+                        <p class="card-text">ou R$ 449,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/controlepink.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Controle xbox sem fio</h5>
+                        <p class="card-text">Deep Pink, Original Microsoft</p>
+                        <p class="card-text">R$ 444,33
+                            até 3x de R$ 148,11 sem juros</p>
+                        <p class="card-text">ou R$ 399,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/controleverdee.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Controle Xbox-Series s Velocity Green</h5>
+                        <p class="card-text">Original Microsoft</p>
+                        <p class="card-text">R$ 444,33
+                            até 3x de R$ 148,11 sem juros</p>
+                        <p class="card-text">ou R$ 399,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/capacontrolexbox.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Capa para Controle de XBOX</h5>
+                        <p class="card-text"></p>
+                        <p class="card-text">R$ 33,22
+                            até 3x de R$ 11,07 sem juros</p>
+                        <p class="card-text">ou R$ 29,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/controlenuce.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Controle Xbox-Series</h5>
+                        <p class="card-text">Sem Fio, Dream Vapor, Lilás, Original Microsoft</p>
+                        <p class="card-text">R$ 499,89
+                            até 3x de R$ 166,63 sem juros</p>
+                        <p class="card-text">ou R$ 449,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/controlevermelhooo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Controle Xbox-Series S, X, One</h5>
+                        <p class="card-text">Pulse Red, Vermelho, Original Microsoft</p>
+                        <p class="card-text">R$ 444,33
+                            até 3x de R$ 148,11 sem juros</p>
+                        <p class="card-text">ou R$ 399,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/recargaxbox.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kit Recarga Dock Station 2 Baterias</h5>
+                        <p class="card-text">p/ Controle de Xbox-Series S / X (Branca)</p>
+                        <p class="card-text">R$ 166,56
+                            até 3x de R$ 55,52 sem juros</p>
+                        <p class="card-text">ou R$ 149,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/controlemarrom.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Controle Xbox-Series</h5>
+                        <p class="card-text">Sem Fio, Nocturnal Vapor, Verde, Original Microsoft</p>
+                        <p class="card-text">R$ 499,89
+                            até 3x de R$ 166,63 sem juros</p>
+                        <p class="card-text">ou R$ 449,90 via Pix</p>
+                        <a class="btn btn-primary" href="#" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>&copy; 2024 Catatau Games. Feito por Vitória e Sandyla.</p>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
