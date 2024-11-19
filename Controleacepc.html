@@ -1,10 +1,10 @@
 <head>
     <meta charset="UTF-8"> <!-- Permitir utilizar caracter especial como 'ç'-->
-    <title>Minha primeira página</title>
+    <title>Controles e Acessórios PC</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="Contoleacepc.css"> <!-- Precisa existir a comunicação entre o arquivo CSS -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Precisa existir a comunicação entre o arquivo CSS -->
 
 
 
@@ -32,8 +32,10 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Playstation</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                <li><a class="dropdown-item" href="ConsolesPlaystation.html">Consoles Playstation</a></li>
-                                <li><a class="dropdown-item" href="ControlePlaystation.html">Controle e Acessórios</a></li>
+                                <li><a class="dropdown-item" href="ConsolesPlaystation.html">Consoles Playstation</a>
+                                </li>
+                                <li><a class="dropdown-item" href="ControlePlaystation.html">Controles e Acessórios</a>
+                                </li>
                                 <li><a class="dropdown-item" href="Jogosplaystation.html">Jogos Playstation</li>
                             </ul>
                         </li>
@@ -54,7 +56,8 @@
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
                                         <li><a class="dropdown-item" href="Consolexbox.html">Consoles Xbox</a></li>
-                                        <li><a class="dropdown-item" href="Consolexbox.html">Controle e Acessórios</a></li>
+                                        <li><a class="dropdown-item" href="ControleeAcexbox.html">Controle e
+                                                Acessórios</a></li>
                                         <li><a class="dropdown-item" href="jogosxbox.html">Jogos Xbox</li>
                                     </ul>
                                 </li>
@@ -74,11 +77,33 @@
                                                 Pc Games
                                             </a>
                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                                <li><a class="dropdown-item" href="Consolepc.html">Consoles PC Gamer</a></li>
-                                                <li><a class="dropdown-item" href="Consolepc.html">Controle e Acessórios</a></li>
+                                                <li><a class="dropdown-item" href="Consolepc.html">Consoles PC Gamer</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="Controleacepc.html">Controle e
+                                                        Acessórios</a></li>
                                                 <li><a class="dropdown-item" href="Jogospc.html">Jogos PC Gamer</li>
                                             </ul>
                                         </li>
+                                        <!-- Button para alternar o menu em dispositivos móveis -->
+                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                            aria-label="Toggle navigation">
+                                            <span class="navbar-toggler-icon"></span>
+                                        </button>
+
+                                        <div class="collapse navbar-collapse" id="navbarNav">
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1"
+                                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Comprar finalizado
+                                                    </a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                                        <li><a class="dropdown-item" href="Pagamento.html">Comprar
+                                                                finalizado</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
                                     </ul>
                                 </div>
                             </ul>
@@ -87,12 +112,12 @@
                 </div>
             </div>
         </nav>
-
-
+        <!-- Fim do menu -->
+    </header>
     <main>
 
         <section id="produtos" class="container">
-            <h2 class="text-center mb-4">Playstation</h2>
+            <h2 class="text-center mb-4">Controle e Acessórios PC</h2>
 
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
