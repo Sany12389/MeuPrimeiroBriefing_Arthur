@@ -12,6 +12,12 @@
     }
 }
 
+header {
+    background-color: #008cff; /* Cor preta mais tradicional para o cabeçalho */
+    padding: 20px 0; /* Espaçamento interno (topo e fundo) */
+    text-align: center; /* Centraliza o texto */
+  }
+
 .b-example-divider {
     width: 100%;
     height: 3rem;
